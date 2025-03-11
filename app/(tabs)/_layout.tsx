@@ -19,9 +19,9 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="charts"
+        name="songs"
         options={{
-          title: "Charts",
+          title: "Songs",
           tabBarIcon: ({ color }) => (
             <Icon name="document-text-outline" size={28} color={color} />
           ),
