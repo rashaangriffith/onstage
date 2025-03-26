@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "on-stage",
-    "slug": "on-stage",
+    "name": "onstage",
+    "slug": "onstage",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -32,10 +32,20 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e9b1be18-0612-491a-bb0a-beb07a6a8f4a"
+      }
+    },
+    "owner": "rashaangriffith"
   }
 }
